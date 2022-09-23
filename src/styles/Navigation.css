@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+nav{
+   padding: 3vh;
+   min-height: 50px;
+   background-color: #f2f2f2;
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Lato', cursive;
+   font-size: min(22px,max(14px,3.5vw));
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 15, 14);
+    font-weight: bold;
+    margin-inline: 2px;
+}
+a:hover{
+    color: rgb(71, 49, 49);
+}
